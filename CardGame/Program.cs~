@@ -1,0 +1,14 @@
+﻿namespace CardGame;
+
+class Program
+{
+	static void Main(string[] args)
+	{
+		Player player1 = new Player(1);
+		Console.WriteLine(player1.NumCards());
+
+		Card card1 = new Card(Suit suit + " " + rank);
+		Deck card2 = new Deck();
+		card2.Print();
+	}
+}
